@@ -3,5 +3,5 @@
     "githubUsername": "YOUR_GITHUB_USERNAME",
     "githubRepo": "YOUR_GITHUB_REPO",
     "jiraXmlFile": "FULL PATH TO XML FILE",
-    "dryRun": false
+    "dryRun": true
 }

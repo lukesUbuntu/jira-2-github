@@ -4,7 +4,7 @@
     "description": "import jira issues into github",
     "main": "dist/app.js",
     "scripts": {
-        "build": "tsc && node dist/app.js",
+        "build": "tsc",
         "start": "ts-node-dev --respawn --transpileOnly src/app.ts",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
