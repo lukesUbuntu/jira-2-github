@@ -5,7 +5,18 @@
     ],
     "jsRules": {},
     "rules": {
-        "disable-next-line": ["no-empty", "no-trailing-whitespace"]
+        "max-line-length": [true, 120],
+        "triple-equals": true,
+        "linebreak-style": [true, "LF"],
+        "semicolon": true,
+        "ordered-imports": false,
+        "quotemark": [true, "single"],
+        "no-trailing-whitespace": false,
+        "object-literal-sort-keys": false,
+        "max-classes-per-file": [false],
+        "no-empty": false,
+        "no-console": false
+
     },
     "rulesDirectory": []
 }

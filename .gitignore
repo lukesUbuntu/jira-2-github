@@ -1,4 +1,6 @@
 .vscode
 *.xml
+*.json
 node_modules/*
 dist/*
+src/config.json

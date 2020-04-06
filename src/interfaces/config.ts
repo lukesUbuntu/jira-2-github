@@ -3,4 +3,5 @@ export interface Config {
     githubUsername : string;
     githubRepo : string;
     jiraXmlFile : string;
+    dryRun? : boolean;
 }
