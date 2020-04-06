@@ -1,2 +1,3 @@
 .vscode
 *.xml
+node_modules/*
