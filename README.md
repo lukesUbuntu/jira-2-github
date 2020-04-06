@@ -4,7 +4,8 @@
 Go to jira `issues & filters`, filter our your issues that u want to import into your github project & export as a `xml` file... 
 
 **Importing Jira issues**  
-clone this repo   
+`git clone git@github.com:lukesUbuntu/jira-2-github.git`.  
+
 `cd jira-2-github`   
 
 `npm i`.  
