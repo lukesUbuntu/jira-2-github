@@ -6,9 +6,14 @@ Go to jira `issues & filters`, filter our your issues that u want to import into
 **Importing Jira issues**  
 clone this repo   
 `cd jira-2-github`   
+
+`npm i`.  
+
 `npm run build`   
+
+`cd dist`   
  
-edit dist/config.json   
+edit config.json and update with required details
 
 ```
 {
@@ -20,10 +25,8 @@ edit dist/config.json
 }
 ```
 
-run
-`cd jira-2-github`   
 `node app.js`    
 
-you will get a console.log of what would be imported, if happy edit config and make dryRun : true   
+you will get a console.log of what would be imported, if happy edit config change dryRun to false and then `node app.js` 
 
 *Will improve this project + readme another day.*
