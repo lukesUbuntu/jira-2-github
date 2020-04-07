@@ -1,7 +1,12 @@
 **Note**  Currently for my own importing/exporting may work for others, this was a quick throw together project.   
 
 **Exporting Jira issues**  
-Go to jira `issues & filters`, filter our your issues that u want to import into your github project & export as a `xml` file... 
+Go to jira `issues & filters -> search`, filter out the issues that u want to import into your github project, then export/save as a `xml` file...   
+
+![screenshot](https://raw.githubusercontent.com/lukesUbuntu/jira-2-github/master/export_screenshot.png)
+
+
+
 
 **Importing Jira issues**  
 `git clone git@github.com:lukesUbuntu/jira-2-github.git`.  
