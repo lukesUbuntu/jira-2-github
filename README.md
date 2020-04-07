@@ -1,4 +1,4 @@
-**Note**  This was a quick throw together works for me fine :) export your jira issues as xml and this will import into github issues. Requires [Token](https://github.com/settings/tokens/new) (requires repo access)
+**Note**  This was a quick throw together works for me fine :) export your jira issues as xml and this will import into github issues. Requires [Github Token](https://github.com/settings/tokens/new) (requires repo access)
 
 **Exporting Jira issues**  
 Go to jira `issues & filters -> search`, filter out the issues that u want to import into your github project, then export/save as a `xml` file...   
@@ -35,4 +35,4 @@ edit config.json and update with required details
 
 you will get a console.log of what would be imported, if happy edit config change dryRun to false and then `node app.js` 
 
-*Will improve this project + readme another day.*
+*Going to make a electron deskop app for easy importing and repo selection*
