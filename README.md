@@ -1,4 +1,4 @@
-**Note**  Currently for my own importing/exporting may work for others, this was a quick throw together project.   
+**Note**  This was a quick throw together works for me fine :) export your jira issues as xml and this will import into github issues. Requires [Token](https://github.com/settings/tokens/new) (requires repo access)
 
 **Exporting Jira issues**  
 Go to jira `issues & filters -> search`, filter out the issues that u want to import into your github project, then export/save as a `xml` file...   
@@ -23,7 +23,7 @@ edit config.json and update with required details
 
 ```
 {
-    "githubToken": "YOUR_GITHUB_OAUTH_TOKEN",      // token here https://github.com/settings/tokens/new (requires repo access)   
+    "githubToken": "YOUR_GITHUB_OAUTH_TOKEN",      // https://github.com/settings/tokens/new (requires repo access)   
     "githubUsername": "YOUR_GITHUB_USERNAME",      // github username
     "githubRepo": "YOUR_GITHUB_REPO",              // repo you want to import issues to
     "jiraXmlFile": "FULL PATH TO XML FILE",        // the xml file you exported the issues to
