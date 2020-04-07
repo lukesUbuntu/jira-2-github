@@ -9,11 +9,11 @@ Go to jira `issues & filters -> search`, filter out the issues that u want to im
 
 
 **Importing Jira issues**  
-`git clone git@github.com:lukesUbuntu/jira-2-github.git`.  
+`git clone git@github.com:lukesUbuntu/jira-2-github.git`  
 
 `cd jira-2-github`   
 
-`npm i`.  
+`npm i`  
 
 `npm run build`   
 
